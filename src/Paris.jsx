@@ -1,7 +1,7 @@
 import image from './paris.jpeg';
 
 function Paris() {
-    return <img scr={image} width="800" alt='Paris'/>
+  return <img src={image} width="400" height="600" alt="Paris" />;
 }
 
-export default Paris
+export default Paris;
