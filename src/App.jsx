@@ -10,7 +10,7 @@ class App extends Component {
   }
 
   render() {
-    const btnText = this.state.show ? "Paris" : "Nyc";
+    const btnText = this.state.show ? "Paris" : "New York City";
 
     return (
       <div className="App">
